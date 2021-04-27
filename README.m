@@ -1,1 +1,3 @@
-Would this work? Text file readmes are not supposed to be pulled.
+function ave = average(x)
+    ave = sum(x(:))/numel(x); 
+end
